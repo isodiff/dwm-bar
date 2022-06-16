@@ -12,11 +12,11 @@ dwm_alsa () {
     printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
     	if [ "$STATUS" = "off" ]; then
-	            printf "^c#e78284^ 󰝟  Muted ^d^"
+	            printf "^c#e78284^ 󰝟 Muted ^d^"
     	else
     		#removed this line becuase it may get confusing
 	        if [ "$VOL" -gt 0 ] && [ "$VOL" -le 10 ]; then
-	            printf "^c#e5c890^ 󰕿 %s%%^d^" "$VOL"
+	            printf "^c#e5c890^ 󰕿 %s%% ^d^" "$VOL"
 	        elif [ "$VOL" -gt 10 ] && [ "$VOL" -le 80 ]; then
 	            printf "^c#a6d189^ 󰖀 %s%% ^d^" "$VOL"
 	        else
