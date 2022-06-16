@@ -12,7 +12,7 @@ export IDENTIFIER="unicode"
 
 # Change the charachter(s) used to seperate modules. If two are used, they will be placed at the start and end.
 export SEP1=""
-export SEP2="  "
+export SEP2=""
 
 # Import the modules
 #. "$DIR/bar-functions/dwm_alarm.sh"
@@ -55,7 +55,7 @@ do
     upperbar=""
     #upperbar="$upperbar$(dwm_alarm)"
     upperbar="$upperbar$(printf "^b#303446^" && dwm_alsa)"
-    upperbar="$upperbar$(dwm_backlight)"
+    upperbar="$upperbar$(printf "^b#414559^" && dwm_backlight)"
     #upperbar="$upperbar$(dwm_battery)"
     #upperbar="$upperbar$(dwm_ccurse)"
     #upperbar="$upperbar$(dwm_cmus)"
@@ -64,7 +64,7 @@ do
     #upperbar="$upperbar$(dwm_currency)"
     upperbar="$upperbar$(printf "^b#303446^" && dwm_date)"
     #upperbar="$upperbar$(dwm_keyboard)"
-    upperbar="$upperbar$(dwm_loadavg)"
+    upperbar="$upperbar$(printf "^b#414559^" && dwm_loadavg)"
     #upperbar="$upperbar$(dwm_mail)"
     #upperbar="$upperbar$(dwm_mpc)"
     #upperbar="$upperbar$(dwm_pulse)"
